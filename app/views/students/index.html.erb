@@ -2,8 +2,7 @@
 
 <ul>
 
-<% Student.all.each do |student| %>
-<li><%= student.to_s %></li>
-<% end %>
-</ul>
+<% @students.each do |student| %>
+    <h3><%= student.to_s %></h3>
+  <% end %>
  
